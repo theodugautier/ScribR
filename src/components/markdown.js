@@ -6,7 +6,9 @@ class Markdown extends Component {
   render() {
     return (
         <form>
-            <textarea placeholder="# type mardown here" onChange={this.props.handleChange}/>
+            <textarea placeholder="# type mardown here" onChange={this.props.handleChange}>
+              {this.props.defaut}
+            </textarea>
         </form>
     );
   }

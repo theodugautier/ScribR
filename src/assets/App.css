@@ -18,12 +18,13 @@ div {
 }
 
 .rendu {
-  width: 49vw;
+  width: 46vw;
   height: 98vh;
   display: block;
   overflow-y: auto;
   font-size: 1.3em;
   padding: 0vw 1vw;
+  background: #ECF0F1;
 }
 
 .rendu p {
@@ -34,12 +35,63 @@ textarea {
   padding: 1vw;
   resize: none;
   width: 50vw;
-  height: 100vh;
-  font-size: 1.3em;
+  height: 94vh;
+  font-size: 1.2em;
   overflow-y: auto;
+  outline: none;
+  border: 0px;
+  font-family: 'Space Mono', monospace;
 }
 
 blockquote {
   border-left: 3px solid lightgray;
   padding-left: 20px;
+}
+
+code {
+  padding: 2px 10px;
+  background: lightgray;
+}
+
+
+/* 
+  word Count
+*/
+
+.word {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 100vw;
+  background: #0096F8;
+  color: white;
+}
+
+.word p {
+  padding: 0;
+  margin: 0;
+}
+
+/* 
+  Download
+*/
+
+.Download {
+  padding: 10px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  color: white;
+  background: lightskyblue;
+  cursor: pointer;
+  transition: background 0.5s;
+}
+
+.Download:hover {
+  background: blue;
+  transition: background 0.5s;
 }
