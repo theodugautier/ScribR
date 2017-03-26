@@ -1,0 +1,45 @@
+h1,
+h2, 
+h3,
+h4,
+h5,
+h6 {
+  padding-bottom: 10px;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+div {
+  display: flex;
+}
+
+.rendu {
+  width: 49vw;
+  height: 98vh;
+  display: block;
+  overflow-y: auto;
+  font-size: 1.3em;
+  padding: 0vw 1vw;
+}
+
+.rendu p {
+  width: 45vw;
+}
+
+textarea {
+  padding: 1vw;
+  resize: none;
+  width: 50vw;
+  height: 100vh;
+  font-size: 1.3em;
+  overflow-y: auto;
+}
+
+blockquote {
+  border-left: 3px solid lightgray;
+  padding-left: 20px;
+}
